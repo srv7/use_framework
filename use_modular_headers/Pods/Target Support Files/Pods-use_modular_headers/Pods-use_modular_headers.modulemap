@@ -1,0 +1,6 @@
+module Pods_use_modular_headers {
+  umbrella header "Pods-use_modular_headers-umbrella.h"
+
+  export *
+  module * { export * }
+}
