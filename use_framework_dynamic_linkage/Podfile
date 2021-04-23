@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'use_framework_dynamic_linkage' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks! :linkage => :dynamic
+
+  pod 'Alamofire'
+  pod 'AFNetworking'
+  # Pods for use_framework_dynamic_linkage
+
+end

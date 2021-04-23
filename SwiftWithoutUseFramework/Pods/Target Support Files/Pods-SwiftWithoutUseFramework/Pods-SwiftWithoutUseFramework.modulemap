@@ -1,0 +1,6 @@
+module Pods_SwiftWithoutUseFramework {
+  umbrella header "Pods-SwiftWithoutUseFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

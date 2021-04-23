@@ -1,0 +1,6 @@
+module Pods_OCWithoutUseFramework {
+  umbrella header "Pods-OCWithoutUseFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
