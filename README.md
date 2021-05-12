@@ -1,7 +1,7 @@
 # use_framework!
 默认使用启用
 
-## OC 
+## OC 工程
 - #use_frameworks!    
     - OC 库、swift 库都静态库 .a 的形式链接进主二进制
     - 使用 swift pod 库需要创建 bridge-header，没有 bridge-header 会报错 Undefined symbol
@@ -11,7 +11,7 @@
     - 不需要创建 bridge-header
     - 添加了 `[CP] Embed Pods Frameworks` phase
 
-## swift
+## swift 工程
 - #use_frameworks!  
     - OC 库、swift 库都静态库 .a 的形式链接进主二进制
     - 需要创建 bridge-header，没有 bridge-header 会导致 OC 库无法使用
